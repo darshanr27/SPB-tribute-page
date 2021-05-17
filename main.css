@@ -151,6 +151,27 @@ blockquote {
   }
   ul {
     font-size: 18px;
-    margin-left: -15px;
+    padding-left: 15px;
+  }
+  ::marker {
+    padding-left: 30px;
+  }
+}
+@media (max-width: 400px) {
+  .header-container h1 {
+    font-size: 24px;
+  }
+  .header-container h4, h5 {
+    font-size: 14px;
+  }
+  .about, blockquote {
+    font-size: 17px;
+    text-align: justify;
+  }
+  .sub-head-title {
+    font-size: 23px;
+  }
+  ul {
+    font-size: 15px;
   }
 }
