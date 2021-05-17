@@ -158,6 +158,9 @@ blockquote {
   }
 }
 @media (max-width: 400px) {
+  .container {
+    margin-bottom: 30px;
+  }
   .header-container h1 {
     font-size: 24px;
   }
@@ -173,5 +176,12 @@ blockquote {
   }
   ul {
     font-size: 15px;
+  }
+  .more-list, .more-list a{
+    color: rgb(66, 58, 92);
+  }
+  .ref-links .sub-head-title {
+  color: rgb(72, 63, 94);
+
   }
 }
