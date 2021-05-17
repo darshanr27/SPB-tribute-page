@@ -26,8 +26,8 @@ h5 {
 }
 
 #profile-image {
-  height: 35rem;
-  width: 50rem;
+  height: 50%;
+  width: 60%;
   padding: 0px 30px 10px 30px;
 }
 
@@ -85,4 +85,37 @@ blockquote {
 
 .more-list a:hover {
   color: rgb(61, 75, 153);
+}
+
+@media (max-width: 600px) {
+  body {
+    padding: 25px;
+  }
+  .container {
+    padding: 25px;
+  }
+  #profile-image {
+    height: 350px;
+    width: 90%;
+    text-align: center;
+    padding-top: 20px;
+  }
+  .header-container h1 {
+    font-size: 30px;
+  }
+  .header-container h4, h5 {
+    font-size: 18px;
+  }
+  .header-container h5 {
+    margin-bottom: -10px;
+  }
+  .about, blockquote {
+    font-size: 20px;
+  }
+  .sub-head-title {
+    font-size: 30px;
+  }
+  ul {
+    font-size: 18px;
+  }
 }
