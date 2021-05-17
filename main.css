@@ -134,7 +134,7 @@ blockquote {
     padding-top: 20px;
   }
   .header-container h1 {
-    font-size: 30px;
+    font-size: 28px;
   }
   .header-container h4, h5 {
     font-size: 18px;
@@ -143,13 +143,14 @@ blockquote {
     margin-bottom: -10px;
   }
   .about, blockquote {
-    font-size: 22px;
+    font-size: 18px;
     text-align: justify;
   }
   .sub-head-title {
     font-size: 28px;
   }
   ul {
-    font-size: 19px;
+    font-size: 18px;
+    margin-left: -15px;
   }
 }
